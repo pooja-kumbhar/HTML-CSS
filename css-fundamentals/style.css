@@ -1,3 +1,7 @@
+body {
+  color: red;
+}
+
 h1,
 h2,
 h3,
@@ -103,4 +107,20 @@ a:hover {
 
 a:active {
   font-style: italic;
+}
+
+#copy {
+  color: red;
+}
+
+.copy {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
 }
