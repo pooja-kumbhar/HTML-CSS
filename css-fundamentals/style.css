@@ -99,10 +99,15 @@ aside {
 
 body {
   background-color: rgb(255, 254, 253);
+  position: relative;
 }
 
 li:first-child {
   font-weight: bold;
+}
+
+nav a:link {
+  background-color: aquamarine;
 }
 
 a:link {
@@ -137,4 +142,13 @@ a:active {
 
 footer p {
   color: green !important;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
