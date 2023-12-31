@@ -8,6 +8,8 @@ body {
   color: black;
   font-size: 18px;
   width: 800px;
+  position: relative;
+  top: 10px;
 }
 
 header h1 {
@@ -20,10 +22,22 @@ header h1 {
   padding-left: 10px;
 }
 
+header::before {
+  position: absolute;
+  left: 20;
+  content: "SALE";
+  letter-spacing: 1ric;
+  background-color: red;
+  color: aliceblue;
+  font-size: 15px;
+  display: inline-block;
+}
+
 .price {
   font-size: 20px;
   font-weight: bold;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .shipping {
@@ -32,16 +46,19 @@ header h1 {
   font-weight: bold;
   color: grey;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 a {
   color: black;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .product-details {
   list-style: square;
   padding-left: 20px;
+  padding-top: 10px;
 }
 
 button {
@@ -49,9 +66,41 @@ button {
   padding: 0;
   margin: 0;
   border-top: 2px solid black;
+  padding-top: 10px;
 }
 
 button:hover {
   background-color: black;
   color: white;
+}
+
+.test {
+  display: inline-block;
+}
+
+.color {
+  display: inline-block;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-white {
+  background-color: gray;
+}
+
+.color-purple {
+  background-color: purple;
 }
