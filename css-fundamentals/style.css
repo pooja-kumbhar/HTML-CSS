@@ -152,3 +152,8 @@ button {
   bottom: 0px;
   right: 0px;
 }
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 2px;
+}
