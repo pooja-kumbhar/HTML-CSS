@@ -195,3 +195,17 @@ FlexBox
   font-style: italic;
   margin-top: 0px;
 }
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1;
+}
+
+aside {
+  flex: 0 0 300px;
+}
